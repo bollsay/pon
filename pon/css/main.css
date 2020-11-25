@@ -460,6 +460,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  padding: 0 10px 0 0;
   text-decoration: none;
   font-weight: 500;
 }
@@ -480,6 +481,30 @@ body {
   padding: 15px;
   font-size: 18px;
   border-right: 1px solid #fff;
+}
+
+.act-s-nav {
+  margin: 20px 0;
+}
+
+.act-s-nav--item {
+  min-height: 50px;
+  margin-bottom: 20px;
+  background-color: #1e90ff;
+}
+
+.act-s-nav--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 10px 15px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .activity-nav {
@@ -654,12 +679,14 @@ body {
           align-items: center;
   min-height: 50px;
   margin-bottom: 20px;
-  padding: 10px 15px;
   background-color: #1e90ff;
 }
 
 .about-nav--link {
+  display: block;
+  width: 100%;
   height: 100%;
+  padding: 10px 15px;
   font-weight: 500;
   text-decoration: none;
 }
